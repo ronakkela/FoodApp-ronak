@@ -1,0 +1,358 @@
+.body {
+    margin: 0;
+    background-color: #fbfbfb;
+    }
+  
+.navbar {
+    background-color: #ce0505;
+    width: 1340px;
+    height: 90px;  
+   }
+  
+.logo {
+    width: 32px;
+    height: 47px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 33px;
+    font-weight:600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.52;
+    letter-spacing: normal;
+    text-align: center;
+    color: #eb2929;
+    padding-left: 6px;
+    margin-top: 6px;
+    }
+  
+.logoContainer {
+    width: 52px;
+    height: 52px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 80px;
+    }
+  
+.loginContainer {
+    display: inline-block;
+    padding-left: 900px;    
+    }
+  
+.login {
+    text-decoration: none;
+    width: 43px;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding-right: 12px;
+    }
+  
+.signup {
+    width: 152px;
+    height: 23px;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight:500px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    border-radius: 1px;
+    border: solid 1px #ffffff;
+    text-decoration: none;
+    padding:10px;    
+    }
+  
+.imageContainerdisplay {
+    margin: 50px 8%;
+}
+  
+@media (max-width: 400px){
+    .imageContainerdisplay {
+        margin: 50px 0;
+    }
+      
+}
+.image {
+    width: 1130px;
+    height: 352px;
+    object-fit: cover;
+    object-position: center;
+    }
+   
+.galleryContainer {
+    width: 242px;
+    height: 48px;
+    opacity: 0.8;
+    border-radius: 3px;
+    background-color: #ffffff;
+    margin-top: -4%
+    }
+  
+.gallery {
+    width: 213px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-left: 370%;
+    margin-top: 138%;
+    }
+  
+.heading {
+    width: 298px;
+    height: 43px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-left: 110px;
+    margin-top: 25px;
+   }
+  
+.detailsContainer {
+    width: 298px;
+    display: inline-block;
+    margin-left: 140px;
+    margin-top: 30px;  
+    }
+  
+.overview {
+    display: inline-block;
+    width: 86px;
+    height: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal; 
+    text-align: left;
+    color: #192f60;
+    margin-right: 76px;
+    text-decoration: none;
+    margin-left: 10%;
+    }
+  
+.contact {
+    display: inline-block;
+    width: 75px;
+    height: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    text-decoration: none;
+    
+    }
+  
+.line {
+    position: absolute;
+    width: 1200px;
+    margin-left: 113px;
+    opacity: 0.5;
+    color: grey;
+    height: 3px;
+    background-color: grey;
+    border-style: none;
+    margin-top: 20px;
+    display: inline-block;
+    }
+  
+.lineRed {
+    width: 140px;
+    opacity: 1;
+    margin-left: 113px;
+    color: #eb2929;
+    height: 3px;
+    background-color: #eb2929;
+    border-style: none;
+    margin-top: 20px;
+    display: inline-block;
+   }
+  
+.about {
+    width: 181px;
+    height: 31px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-top: 45px;
+    margin-left: 140px;
+    }
+  
+.cuisine {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-top: 65px;
+    margin-left: 140px;
+    }
+  
+.cuisineType {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-top: 10px;
+    margin-left: 140px;
+    }
+  
+.cost {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-top: 50px;
+    margin-left: 140px;
+    }
+  
+.approxCost {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-top: 1px;
+    margin-left: 140px;
+    margin-bottom: 480px;
+    }
+  
+.tabbar{
+    display: block;
+    width: unset;
+  }
+  
+.tabbar > :nth-child(n){
+    padding: 10px 0;
+    text-align: center;
+    margin: 0;
+    display: inline-block;
+    width: 150px;
+  }
+  
+.tabbar > .selected{
+    box-shadow: 0 3px 0 red;
+  }
+  
+.tabinfo{
+    display:  none;
+  }
+  
+.tabinfo--show{
+    display: block;
+  }
+  
+.Phone-Number {
+    width: 133px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-left: 10%;
+    margin-top: 3%;
+    }
+
+.Number {
+    width: 124px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #f67082;
+    margin-left: 10%;
+    }
+
+.The-Big-Chill-Cakery {
+    width: 179px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-top: 2%;
+    margin-left: 10%;
+    } 
+
+.Shopadress {
+    width: 359px;
+    height: 48px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+    margin-left: 10%;
+    }

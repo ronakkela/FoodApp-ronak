@@ -1,0 +1,183 @@
+
+
+.body {
+    margin: 0;
+    padding: 0;
+
+    }
+   
+.App {
+    text-align: center;
+    }
+   
+.imagebox {
+    background: url('https://i.postimg.cc/76kStDSv/food-Wallpaper.png');
+    background-position: center;
+    background-size: cover;
+    height: 73vh;
+    object-fit: contain;
+    display: flex;
+    flex-direction : column;
+    align-items: center; 
+    }   
+       
+.logo2 {
+    margin: 10vh auto;
+    font-family: Poppins;
+    font-size: 80px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.51;
+    letter-spacing: normal;
+    text-align: left;
+    color: #eb2929;
+    width: 147px;
+    height: 147px;
+    border-radius: 50%;
+    background-color: white;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 147px;
+    }
+   
+.heading1{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: -5vh;
+    }
+         
+    .address-container1{
+        text-align: center;
+    }
+.homesearch-location {
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    }    
+                   
+   
+   /* .search-controller {} */
+   
+.input-dimensions {
+    height: 100%;
+    width: 110%;
+    display: inline-block;
+    margin-left: -5%;
+    }
+   
+.search-restaurant {
+      
+    background-color: #ffffff;
+    margin: 10px;
+    display: inline-block;
+    }
+   
+.Search-for-restaurants {
+    height: 21px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+    }
+   
+.header{
+       width: 239px;
+       height: 43px;
+       font-family: Poppins;
+       font-size: 30px;
+       font-weight: bold;
+       font-stretch: normal;
+       font-style: normal;
+       line-height: 1.53;
+       letter-spacing: normal;
+       text-align: left;
+       color: #192f60;
+       margin-top: 25px;
+      }
+   
+.quick-search-subheading {
+       font-family: Poppins;
+       font-size: 18px;
+       font-weight: normal;
+       font-stretch: normal;
+       font-style: normal;
+       line-height: 1.5;
+       letter-spacing: normal;
+       text-align: left;
+       color: #8c96ab;
+       margin-left: 2px;
+      }
+   
+.quick-search-tile-container {
+       width: 360px;
+       height: 160px;
+       -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+       box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+       background-color: #ffffff;
+       position: relative;
+       margin: 15px;
+       display: inline-flex;
+      }  
+    
+.image-container {
+       padding: 0 !important;
+      }
+   
+   img {
+    height: 160px;
+    width: 160px; 
+    }
+   
+.content-heading {
+       font-family: Poppins;
+       font-size: 18px;
+       font-weight: 600;
+       font-stretch: normal;
+       font-style: normal;
+       line-height: 1.5;
+       letter-spacing: normal;
+       text-align: left;
+       color: #192f60;
+       padding: 10px 20px 5px 30px;
+       }
+.content-bar{margin: auto}
+
+.content-text {
+       font-family: Poppins;
+       font-size: 14px;
+       font-weight: normal;
+       font-stretch: normal;
+       font-style: normal;
+       line-height: 1.5;
+       letter-spacing: normal;
+       text-align: left;
+       color: #8c96ab;
+       padding: 0px 20px 5px 30px;
+       }
+
+.dropdown-item{
+    display: block;
+    text-decoration: none;
+    color: #192f60;
+    padding: 5px 7px;
+    background-color: #fff;
+}
+.dropdown-item:hover{
+    background-color: #ce0505;
+    text-decoration: none;
+    color: #fff;
+}
